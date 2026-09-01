@@ -1,0 +1,24 @@
+{
+  "id": "audioMixer",
+  "name": "Volume Mixer",
+  "description": "Compact PipeWire volume mixer for output devices and applications",
+  "version": "1.1.1",
+  "author": "Tigaie",
+  "type": "widget",
+  "capabilities": [
+    "dankbar-widget",
+    "audio-control"
+  ],
+  "component": "./AudioMixer.qml",
+  "startupCheck": "./StartupCheck.qml",
+  "icon": "volume_up",
+  "dependencies": [
+    "pw-metadata"
+  ],
+  "permissions": [
+    "process",
+    "settings_read",
+    "settings_write"
+  ],
+  "settings": "./AudioMixerSettings.qml"
+}
