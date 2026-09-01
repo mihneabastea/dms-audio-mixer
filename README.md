@@ -2,6 +2,11 @@
 
 A compact PipeWire volume mixer for [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell).
 
+<p align="center">
+  <img src="screenshots/devices.png" alt="Devices tab" width="48%">
+  <img src="screenshots/applications.png" alt="Applications tab" width="48%">
+</p>
+
 Control output devices and individual applications directly from DMS.
 
 ## Features
